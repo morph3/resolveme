@@ -26,7 +26,7 @@ func main() {
 	isVerbose := false
 	fileName := ""
 
-	flag.BoolVar(&isVerbose, "v", false, "If this flag is set, ip adress also displayed comma seperated")
+	flag.BoolVar(&isVerbose, "v", false, "If this flag is set, ip adress is also displayed with comma seperated")
 	flag.StringVar(&fileName, "l", "", "Input file")
 	flag.Parse()
 
